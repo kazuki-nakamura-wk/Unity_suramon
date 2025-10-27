@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4785376741171620251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6907810865434937083}
+  - component: {fileID: 225455174381073415}
+  - component: {fileID: 7594054908503056893}
+  - component: {fileID: 1884027539208878155}
+  - component: {fileID: 7125928480381995865}
+  - component: {fileID: 2542167450278661829}
+  - component: {fileID: 1898728171248986308}
+  - component: {fileID: 2424494292793182789}
+  - component: {fileID: 6101961957008384872}
+  - component: {fileID: 4140131711408571988}
+  - component: {fileID: -107070737612478726}
+  - component: {fileID: 7018811367141650878}
+  - component: {fileID: -2370558401449493701}
+  - component: {fileID: 6068628859105041289}
+  - component: {fileID: -9136550096477626011}
+  - component: {fileID: 9017756866718082202}
+  - component: {fileID: -893014640622728448}
+  - component: {fileID: 2399326673286517269}
+  - component: {fileID: -4482375692265830452}
+  - component: {fileID: -5933684306670587627}
+  - component: {fileID: 5680350031927250003}
+  - component: {fileID: 187285799130108443}
+  m_Layer: 0
+  m_Name: seme_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6907810865434937083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1020036, y: -0.15615737, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &225455174381073415
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 407325111
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e8dc7d5221c33f842b45003a41b36009, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.28, y: 1.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &7594054908503056893
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.64
+--- !u!114 &1884027539208878155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &7125928480381995865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (1)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &2542167450278661829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (2)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &1898728171248986308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (3)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &2424494292793182789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (4)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &6101961957008384872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (5)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &4140131711408571988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (6)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &-107070737612478726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (7)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &7018811367141650878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (8)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &-2370558401449493701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c33e5944024dc247bc39c16c08f3b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_31 (9)
+  sceneName: "\u30D0\u30C3\u30AF"
+--- !u!114 &6068628859105041289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11
+  hideObjectName: teki_11
+--- !u!114 &-9136550096477626011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11 (1)
+  hideObjectName: teki_11 (1)
+--- !u!114 &9017756866718082202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11 (2)
+  hideObjectName: teki_11 (2)
+--- !u!114 &-893014640622728448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11 (3)
+  hideObjectName: teki_11 (3)
+--- !u!114 &2399326673286517269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11 (4)
+  hideObjectName: teki_11 (4)
+--- !u!114 &-4482375692265830452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11 (5)
+  hideObjectName: teki_11 (5)
+--- !u!114 &-5933684306670587627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951ca57645e617a4cbf7939d0d20a2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectName: teki_11 (6)
+  hideObjectName: teki_11 (6)
+--- !u!50 &5680350031927250003
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &187285799130108443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785376741171620251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9519ea7f0b3654887af981f937439e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limitSec: 1
